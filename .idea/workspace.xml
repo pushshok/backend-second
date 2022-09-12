@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d46a4a27-298c-48b7-ad60-a4a8e65c43c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/project.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/lesson3/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/lesson3/ExampleTest.java" afterDir="false" />
+    <list default="true" id="d46a4a27-298c-48b7-ad60-a4a8e65c43c8" name="Changes" comment="Delete dublicate properities + add change to AbstractTest.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/lesson3/HomeTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/lesson3/LoggingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/geekbrains/lesson3/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/lesson3/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/geekbrains/lesson3/ExampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/geekbrains/lesson3/ExampleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +30,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///usr/lib/jvm/jdk-11/lib/src.zip!/java.base/java/lang/ExceptionInInitializerError.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,9 +55,101 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
 }</component>
+  <component name="RunManager" selected="JUnit.HomeTaskTest.usePostSpoonacular">
+    <configuration name="ExampleTest.addMealTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-second" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.lesson3" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.lesson3.ExampleTest" />
+      <option name="METHOD_NAME" value="addMealTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleTest.getExampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-second" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.lesson3" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.lesson3.ExampleTest" />
+      <option name="METHOD_NAME" value="getExampleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTaskTest.useGetSpoonacular" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-second" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.lesson3" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.lesson3.HomeTaskTest" />
+      <option name="METHOD_NAME" value="useGetSpoonacular" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTaskTest.useMealPlan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-second" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.lesson3" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.lesson3.HomeTaskTest" />
+      <option name="METHOD_NAME" value="useMealPlan" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTaskTest.usePostSpoonacular" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-second" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrains.lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.geekbrains.lesson3" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.lesson3.HomeTaskTest" />
+      <option name="METHOD_NAME" value="usePostSpoonacular" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HomeTaskTest.usePostSpoonacular" />
+        <item itemvalue="JUnit.HomeTaskTest.useMealPlan" />
+        <item itemvalue="JUnit.ExampleTest.addMealTest" />
+        <item itemvalue="JUnit.ExampleTest.getExampleTest" />
+        <item itemvalue="JUnit.HomeTaskTest.useGetSpoonacular" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,6 +159,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662560294959</updated>
     </task>
+    <task id="LOCAL-00001" summary="Delete dublicate properities + add change to AbstractTest.">
+      <created>1662901363130</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662901363130</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,5 +179,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Delete dublicate properities + add change to AbstractTest." />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete dublicate properities + add change to AbstractTest." />
   </component>
 </project>
